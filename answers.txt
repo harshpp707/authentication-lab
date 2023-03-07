@@ -1,0 +1,9 @@
+1. It uses session-based authentication by default. 
+   It is managed by Django authentication system.
+
+2. Basic authentication scheme is used.
+
+3. SessionAuthentication is server side authentication scheme. 
+   TokenAuthentication is client side authentication, which is stored as JSON.
+   TokenAuthentication can be used across multiple devices and application, and session
+   authentication limited to single device.
