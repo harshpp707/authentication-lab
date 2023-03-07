@@ -7,3 +7,8 @@
    TokenAuthentication is client side authentication, which is stored as JSON.
    TokenAuthentication can be used across multiple devices and application, and session
    authentication limited to single device.
+   
+4. When login is pressed, website will send request to google oauth2 server for permission to login, and asks if user wants to share permission
+   if permssion granted then oauth2 server generates access token which is used by website through api call and then user logs in.
+   
+5. https://github.com/harshpp707/authentication-lab
